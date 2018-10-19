@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*containers*/
+
+.container-alert {
+    padding: 0;
+}
+
+.container-navbar {
+    
+}
+
+.container-callout {
+    height: 100vh;
+    background: url(images/WhiskeyBackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding-left: 0;
+    padding-right: 0;
+    
+    position: relative;
+    
+}
+
+/*image overlay*/
+.opaque-overlay{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-quotes {
+    
+}
+
+.container-features {
+    
+}
+
+.container-favorites {
+    
+}
+
+/*spacer*/
+
+.spacer{
+    height: 2px;
+    width: 60px;
+    background-color: white;
+}
+
+.spacer--orange{
+    background-color: #d85b12;
+}
+
+/*Jumbotron*/
+
+.jumbotron{
+    background-color:  transparent;
+}
+
+.jumbotron h1{
+    color: white;
+}
+
+.jumbotron .lead{
+    color: white;
+}
+
+.jumbotron small {
+    color: white;
+}
+
+/*Navbar*/
+
+.navbar {
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+    background-color: transparent;
+    z-index: 1;
+    color: white!important;
+    width: 100%;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar-light{
+    color: white!important;
+}
+
+/*Alert*/
+
+.alert {
+    position: relative;
+    padding: 0;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-align: center;
+}
+
+.site-wide-alert a{
+    color: #d85b12;
+}
+
+/*Buttons*/
+
+.btn--orange{
+    color: white;
+    background-color: #d85b12;
+    border-color: #d85b12;
+}
+
+.btn--cta{
+    border-radius: 30px;
+}
+
+.btn--orange:hover
+{
+    background-color: #c14f0c;
+    border-color: #c14f0c;
+    color: white;
+}
